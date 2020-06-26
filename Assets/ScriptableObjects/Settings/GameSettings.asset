@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569953560789bdd45ac9cb659d3259df, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  GRIDSIZE: 1
+  ASSEMBLY_LINE_SIZE: 1
+  uiOverlayVisible: 0
+  InventoryEmptySlot: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  INTERACTION_DISTANCE: 5
+  recipes:
+  - name: 
+    inputs: []
+    output:
+      maxAmountPerInventorySlot: 0
+      name: 
+    timeToCraft: 0
+  oreMaterials:
+  - {fileID: 11400000, guid: c1b61c0698ec2ee4e8ca88f527e01293, type: 2}
+  - {fileID: 11400000, guid: 2f9a40e4d15999240826d739bc1970e6, type: 2}
+  - {fileID: 11400000, guid: 6ea7b5e63ac9279428d3d2c49093b380, type: 2}
+  - {fileID: 11400000, guid: 98f291a2258247243bc18987f674bf25, type: 2}
+  - {fileID: 11400000, guid: a132529ad6b02904491bb77fc850b80f, type: 2}
+  - {fileID: 11400000, guid: 49c2cbfe92b02714eb488c14fdc93839, type: 2}
+  - {fileID: 11400000, guid: 65208eaecd383444c98eab36ff38aa57, type: 2}
+  - {fileID: 11400000, guid: cfdd84762718f8a47a0020ee7dc271fb, type: 2}
+  - {fileID: 11400000, guid: 760d8236cafe453499623fa39629507f, type: 2}
+  - {fileID: 11400000, guid: 027002c983ede31418822173a41c79c8, type: 2}

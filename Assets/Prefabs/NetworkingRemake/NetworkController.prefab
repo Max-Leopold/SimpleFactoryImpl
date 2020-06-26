@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3172667004629980971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3172667004629980973}
+  - component: {fileID: 6613998335903136778}
+  m_Layer: 0
+  m_Name: NetworkController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3172667004629980973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3172667004629980971}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6613998335903136778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3172667004629980971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c83d9a588d7df49bf41346b517b776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emptyAssemblyLine: {fileID: 3507224286097488724, guid: f4c7ea9b28da0224b93e85db40582e59,
+    type: 3}
+  playerPrefab: {fileID: 99597244752231632, guid: 4133180cdbb7c494e82e5a90c260ac67,
+    type: 3}
+  oreOutputMachine: {fileID: 7440515421541506721, guid: 36581f39cd44cb747a6f9da9ed076946,
+    type: 3}
+  splitter: {fileID: 2673996018180934492, guid: ee13491350cb80f48983fa0c5c9aa9f2,
+    type: 3}
+  combiner: {fileID: 6616561452953846915, guid: 390075708ff02c849a94357024f46a5f,
+    type: 3}
+  ore: {fileID: 5655818056434279817, guid: f19d65625f185204eaa4080572d6b28c, type: 3}

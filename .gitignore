@@ -58,3 +58,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Copyright music
+*.mp3
+
+# Copyright Images
+/Assets/UI/DownloadedImages
